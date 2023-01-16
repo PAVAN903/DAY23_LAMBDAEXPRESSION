@@ -35,9 +35,12 @@ public class Main {
 	}else {
 		System.out.println("mobile number is not is valid");
 	}
-	
-	
-
+	System.out.println("enter password");
+	String password=sc.next();
+	if(user.validPassword(password)==true) {
+		System.out.println("password is valid");
+	}else {
+		System.out.println("password is not valid");
 	}
-
-}
+	}
+	}

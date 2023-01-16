@@ -24,4 +24,10 @@ public class UserRegistration {
 		return matches;
 		
 	}
+	boolean validPassword(String password)
+	{
+		Pattern pattern=Pattern.compile("^[a-z0-9]{5,}");
+		boolean matches=pattern.matcher(password).matches();
+		return matches;
+	}
 	}
