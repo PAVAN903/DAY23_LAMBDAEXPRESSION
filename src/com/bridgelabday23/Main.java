@@ -28,6 +28,15 @@ public class Main {
 	}else {
 		System.out.println("mail is not is valid");
 	}
+	System.out.println("enter mobile number");
+	String mobile=sc.next();
+	if(user.validNamemob(mobile)==true) {
+		System.out.println("mobile number is valid");
+	}else {
+		System.out.println("mobile number is not is valid");
+	}
+	
+	
 
 	}
 
