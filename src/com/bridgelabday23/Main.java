@@ -42,5 +42,12 @@ public class Main {
 	}else {
 		System.out.println("password is not valid");
 	}
+	System.out.println("enter password with upper case letter ");
+	String Upassword=sc.next();
+	if(user.validPassword(Upassword)==true) {
+		System.out.println("password is valid");
+	}else {
+		System.out.println("password is not valid");
+	}
 	}
 	}
