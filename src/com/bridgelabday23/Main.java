@@ -20,7 +20,13 @@ public class Main {
 		System.out.println("last name is valid");
 	}else {
 		System.out.println("last name is not valid");
-	
+    }
+	System.out.println("enter mail id");
+	String mail=sc.next();
+	if(user.validName(mail)==true) {
+		System.out.println("mail id is valid");
+	}else {
+		System.out.println("mail is not is valid");
 	}
 
 	}
