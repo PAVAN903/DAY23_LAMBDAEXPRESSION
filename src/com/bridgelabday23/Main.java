@@ -42,9 +42,9 @@ public class Main {
 	}else {
 		System.out.println("password is not valid");
 	}
-	System.out.println("enter password with upper case letter and numeric ");
-	String Npassword=sc.next();
-	if(user.validPassword(Npassword)==true) {
+	System.out.println("enter password with special character ");
+	String Spassword=sc.next();
+	if(user.validPassword(Spassword)==true) {
 		System.out.println("password is valid");
 	}else {
 		System.out.println("password is not valid");
