@@ -24,10 +24,10 @@ public class UserRegistration {
 		return matches;
 		
 	}
-	boolean validPassword(String Upassword)
+	boolean validPassword(String Npassword)
 	{
 		Pattern pattern=Pattern.compile("^[A-Z]{1}[a-z0-9]{8,}");
-		boolean matches=pattern.matcher(Upassword).matches();
+		boolean matches=pattern.matcher(Npassword).matches();
 		return matches;
 	}
 	}
